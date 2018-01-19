@@ -5,7 +5,7 @@
 import re
 import base58
 import Crypto.Hash.SHA256 as SHA256
-from xcoin_hash import getPoWHash
+from keyco_hash import getPoWHash
 
 try:
     import Crypto.Hash.RIPEMD160 as RIPEMD160
