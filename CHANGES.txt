@@ -137,7 +137,7 @@ Major changes from 0.3 to 0.4 (2011-07-04 to 2011-07-15)
 * FastCGI support has matured.  See README-FASTCGI.txt for setup.
 
 * Abe supports Weeds currency natively.  Weeds info:
-  http://forum.bitcoin.org/index.php?topic=24209.0
+  http://forum.keyco.org/index.php?topic=24209.0
 
 * The "datadir" configuration directive can add a new currency without
   changes to Python code.

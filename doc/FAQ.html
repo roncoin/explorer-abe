@@ -16,11 +16,11 @@
 
 <p class="q"><a name="pubkey_hash">Where in the database are bitcoin
     addresses?</a></p>
-<p class="a">A <a href="https://en.bitcoin.it/wiki/Address">bitcoin
+<p class="a">A <a href="https://en.keyco.it/wiki/Address">bitcoin
   address</a> is an encoding of
-  the <a href="https://en.bitcoin.it/wiki/Hash">hash</a> of the public
+  the <a href="https://en.keyco.it/wiki/Hash">hash</a> of the public
   part of a keypair in
-  someone's <a href="https://en.bitcoin.it/wiki/Wallet">wallet</a>.
+  someone's <a href="https://en.keyco.it/wiki/Wallet">wallet</a>.
   Abe stores only the public key hash,
   in <code>pubkey.pubkey_hash</code>.  Abe converts hash values to
   bitcoin addresses as needed using the <code>hash_to_address</code>
@@ -48,7 +48,7 @@
 
   <p class="a"><code>address_version</code> comes from the first byte
   of the input to SHA256 used
-  in <a href="https://en.bitcoin.it/wiki/Protocol_specification#Addresses">address
+  in <a href="https://en.keyco.it/wiki/Protocol_specification#Addresses">address
   computation</a>.  In Bitcoin as of this writing, this information is
   in <a href="https://github.com/bitcoin/bitcoin/blob/d2291cce9235708f3bc3f95ac1b45164a03cd2ce/src/base58.h#L263">src/base58.h</a>:
 

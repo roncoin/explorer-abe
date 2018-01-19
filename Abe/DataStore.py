@@ -651,7 +651,7 @@ class DataStore(object):
                 "loader": loader}
 
         # By default, scan every dir we know.  This doesn't happen in
-        # practise, because abe.py sets ~/.bitcoin as default datadir.
+        # practise, because abe.py sets ~/.keyco as default datadir.
         if store.args.datadir is None:
             store.datadirs = datadirs.values()
             return

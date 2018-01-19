@@ -1,6 +1,6 @@
 Abe setup for MySQL: 8 easy steps.
 
-1. Run the Bitcoin client once.  It'll create a .bitcoin directory in
+1. Run the Bitcoin client once.  It'll create a .keyco directory in
 your home directory, along with some other necessary files.
 
 2. Install Python 2.7 and pycrypto and python-mysqldb.  The Debian/Ubuntu packages 

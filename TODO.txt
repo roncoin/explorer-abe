@@ -18,7 +18,7 @@
         store.cursor.execute(cached, params)
     IntegrityError: duplicate key value violates unique constraint "tx_tx_hash_key"
 
-    Failed to catch up {'blkfile_number': 1, 'dirname': '/home/bitcoin/.bitcoin', 'c
+    Failed to catch up {'blkfile_number': 1, 'dirname': '/home/bitcoin/.keyco', 'c
     hain_id': None, 'id': Decimal('1'), 'blkfile_offset': 434255480}
     Traceback (most recent call last):
       File "Abe/DataStore.py", line 2220, in catch_up
@@ -179,7 +179,7 @@
   addresses, then add a hyperlink from objects linked to them.
 
 * Perhaps track and report coin difficulty as proposed by casascius:
-  http://forum.bitcoin.org/index.php?topic=10755.0
+  http://forum.keyco.org/index.php?topic=10755.0
 
 * Perhaps track and report collectible transaction bytes: size of
   transactions whose outputs are all spent, minus Merkle shrubbery

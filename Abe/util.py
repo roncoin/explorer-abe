@@ -21,7 +21,7 @@ def determine_db_dir():
         return os.path.expanduser("~/Library/Application Support/Bitcoin/")
     elif platform.system() == "Windows":
         return os.path.join(os.environ['APPDATA'], "Bitcoin")
-    return os.path.expanduser("~/.bitcoin")
+    return os.path.expanduser("~/.keyco")
 
 # This function comes from bitcointools, bct-LICENSE.txt.
 def long_hex(bytes):
