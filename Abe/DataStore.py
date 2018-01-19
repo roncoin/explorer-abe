@@ -2647,7 +2647,7 @@ store._ddl['txout_approx'],
         chain_ids = frozenset([chain_id])
 
         conffile = dircfg.get("conf",
-                              os.path.join(dircfg['dirname'], "darkcoin.conf"))
+                              os.path.join(dircfg['dirname'], "keyco.conf"))
         try:
             conf = dict([line.strip().split("=", 1)
                          if "=" in line
