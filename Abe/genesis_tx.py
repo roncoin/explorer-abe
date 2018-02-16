@@ -26,7 +26,7 @@ def get(tx_hash_hex):
     """
 
     # Main Bitcoin chain:
-    if tx_hash_hex == "2b8dd6f68bdbc4436ff6b2f680745c921aba0f643f81b253269c4716bbbd5257":
+    if tx_hash_hex == "cdf1190e352155899d5f3138d7b29a1de9c76aea4794730ac8b38e22e1dceefc":
         return "01000000010000000000000000000000000000000000000000000000000000000000000000ffffffff03510101ffffffff0100208ed2063c0000232102f6e61b9e306ccc3d8cb3d2c904950c3c064f7936d369ff5ca803ffb91c632c81ac00000000"
 
     # Extract your chain's genesis transaction data from the first

@@ -57,8 +57,8 @@ CONFIG_DEFAULTS = {
 WORK_BITS = 304  # XXX more than necessary.
 
 CHAIN_CONFIG = [
-    {"chain":"Darkcoin",
-     "code3":"DRK", "address_version":"\x4c", "magic":"\xfe\xa5\x03\xdd"},
+    {"chain":"Dowin",
+     "code3":"DOW", "address_version":"\x4c", "magic":"\x1f\xbc\xc7\x4c"},
     ]
 
 NULL_HASH = "\0" * 32
@@ -651,7 +651,7 @@ class DataStore(object):
                 "loader": loader}
 
         # By default, scan every dir we know.  This doesn't happen in
-        # practise, because abe.py sets ~/.keyco as default datadir.
+        # practise, because abe.py sets ~/.dowin as default datadir.
         if store.args.datadir is None:
             store.datadirs = datadirs.values()
             return
@@ -2647,7 +2647,7 @@ store._ddl['txout_approx'],
         chain_ids = frozenset([chain_id])
 
         conffile = dircfg.get("conf",
-                              os.path.join(dircfg['dirname'], "keyco.conf"))
+                              os.path.join(dircfg['dirname'], "dowin.conf"))
         try:
             conf = dict([line.strip().split("=", 1)
                          if "=" in line

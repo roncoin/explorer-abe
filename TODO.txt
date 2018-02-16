@@ -18,7 +18,7 @@
         store.cursor.execute(cached, params)
     IntegrityError: duplicate key value violates unique constraint "tx_tx_hash_key"
 
-    Failed to catch up {'blkfile_number': 1, 'dirname': '/home/bitcoin/.keyco', 'c
+    Failed to catch up {'blkfile_number': 1, 'dirname': '/home/bitcoin/.dowin', 'c
     hain_id': None, 'id': Decimal('1'), 'blkfile_offset': 434255480}
     Traceback (most recent call last):
       File "Abe/DataStore.py", line 2220, in catch_up

@@ -292,7 +292,7 @@ class Abe:
             '<tr><th>Currency</th><th>Code</th><th>Block</th><th>Time</th>',
             '<th>Started</th><th>Age (days)</th><th>Coins Created</th>',
             '<th>Avg Coin Age</th><th>',
-            '% <a href="https://en.keyco.it/wiki/Bitcoin_Days_Destroyed">',
+            '% <a href="https://en.dowin.it/wiki/Bitcoin_Days_Destroyed">',
             'CoinDD</a></th>',
             '</tr>\n']
         now = time.time() - EPOCH1970
@@ -487,7 +487,7 @@ class Abe:
                  '<th>Difficulty</th><th>Outstanding</th>',
                  '<th>Average Age</th><th>Chain Age</th>',
                  '<th>% ',
-                 '<a href="https://en.keyco.it/wiki/Bitcoin_Days_Destroyed">',
+                 '<a href="https://en.dowin.it/wiki/Bitcoin_Days_Destroyed">',
                  'CoinDD</a></th>',
                  ['<th>Satoshi-seconds</th>',
                   '<th>Total ss</th>']

@@ -5,7 +5,7 @@
 import re
 import base58
 import Crypto.Hash.SHA256 as SHA256
-from keyco_hash import getPoWHash
+from dowin_hash import getPoWHash
 
 try:
     import Crypto.Hash.RIPEMD160 as RIPEMD160
@@ -21,7 +21,7 @@ def determine_db_dir():
         return os.path.expanduser("~/Library/Application Support/Bitcoin/")
     elif platform.system() == "Windows":
         return os.path.join(os.environ['APPDATA'], "Bitcoin")
-    return os.path.expanduser("~/.keyco")
+    return os.path.expanduser("~/.dowin")
 
 # This function comes from bitcointools, bct-LICENSE.txt.
 def long_hex(bytes):
